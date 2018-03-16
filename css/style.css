@@ -18,7 +18,7 @@ body {
 }
 .navigation-wrapper {
     width: 100%;
-    background-color: #F53656;
+    background-color: #1a2023;
     margin-bottom: 1em;
     padding: 0 1em;
 }
@@ -125,7 +125,7 @@ body {
 .auction-info input[type='button']{
     padding: 0.5em;
     width: 200px;
-    background-color: #F53656;
+    background-color: #1a2023;
     border: none;
     margin-top: 1em;
     color: #fff;
@@ -140,7 +140,7 @@ body {
     color: #0654ba;
 }
 .btn {
-    background-color: #F53656;
+    background-color: #1a2023;
     border: none;
     color: white;
     padding: 0.5em 1em;
