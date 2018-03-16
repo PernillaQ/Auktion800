@@ -78,6 +78,12 @@ body {
 }
 .sort-wrapper input {
     margin-left: 1em;
+    padding: 0.5em;
+    letter-spacing: 0.1em;
+    background: linear-gradient(to bottom left, #1a2023, gray);
+    color: #f4f4f4;
+    border: none;
+    border-radius: 0.25em;
 }
 .auction-wrapper {
     display: flex;
@@ -130,19 +136,29 @@ body {
 .auction-info input[type='button']{
     padding: 0.5em;
     width: 200px;
-    background: linear-gradient(to bottom,#00000,#1a2023);
+    background: linear-gradient(to bottom,#000000,#1a2023);
     border: none;
+    border-radius:0.25em;
     margin-top: 1em;
     color: #fff;
     cursor: pointer;
     margin: 0 auto;
     display: block;
 }
+a
+{
+    text-decoration:none;
+    color:#DCD0C0;
+}
+a:hover
+{
+    color:#cab89f;
+}
 #show-bids {
-    background-color: #fff;
+ 
     border: none;
     width: auto;
-    color: #0654ba;
+    color: #f4f4f4;
 }
 .article-wrapper img{
  border-radius:0.25em;   
