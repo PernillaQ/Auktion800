@@ -43,6 +43,8 @@ body {
     width: 300px;
     padding: 0.8em;
     border: none;
+    border-bottom-left-radius: 0.25em;
+    border-top-left-radius: 0.25em;
 }
 .navigation-content input:focus {
     outline-color: black;
@@ -50,6 +52,8 @@ body {
 .search {
     background-color: #eee;
     border: none;
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
     cursor: pointer;
 }
 .search:hover {
@@ -140,8 +144,12 @@ body {
     width: auto;
     color: #0654ba;
 }
+.article-wrapper img{
+ border-radius:0.25em;   
+}
 .btn {
-    background: linear-gradient(to bottom,#00000,#1a2023);
+    background: linear-gradient(to bottom left, #1a2023, gray);
+    border-radius: 0.25em;
     border: none;
     color: white;
     padding: 0.5em 1em;
