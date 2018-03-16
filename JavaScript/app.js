@@ -14,7 +14,7 @@ function SendBid(id, amount) {
 
 async function loadFile()
 {
-    let auktionUrl = await fetchData('http://nackowskis.azurewebsites.net/api/Auktion/800/');
+    let auktionUrl = await fetchData('https://nackowskis.azurewebsites.net/api/Auktion/800/');
 
     //var auctionPrice = auktionUrl[1].Utropspris;
     //console.log(auctionPrice);
