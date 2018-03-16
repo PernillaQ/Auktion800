@@ -88,6 +88,7 @@ body {
     background-color: #fff;
     padding: 1em;
     border: 1px solid #ddd;
+    border-radius:0.25em;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -125,7 +126,7 @@ body {
 .auction-info input[type='button']{
     padding: 0.5em;
     width: 200px;
-    background: linear-gradient(to bottom,#DCD0C0,#f4f4f4);
+    background: linear-gradient(to bottom,#00000,#1a2023);
     border: none;
     margin-top: 1em;
     color: #fff;
@@ -140,7 +141,7 @@ body {
     color: #0654ba;
 }
 .btn {
-    background: linear-gradient(to bottom,#DCD0C0,#f4f4f4);
+    background: linear-gradient(to bottom,#00000,#1a2023);
     border: none;
     color: white;
     padding: 0.5em 1em;
